@@ -45,3 +45,6 @@ WIN_COMBINATIONS= [
       return false
     end
   end
+  
+  def over?(board)
+  end
