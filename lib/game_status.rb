@@ -33,7 +33,6 @@ WIN_COMBINATIONS= [
       
       return false
       end
-    end
   
  # def full?(board)
 #    if board.detect{|space| space}
