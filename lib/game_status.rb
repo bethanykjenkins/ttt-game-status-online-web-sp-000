@@ -39,7 +39,5 @@ WIN_COMBINATIONS= [
    end
    
   def draw?(board)
-    if won?(board) == false
-      return true 
-    elsif full?(board) == 
+    if !won?(board) && full?(board) == 
   end
