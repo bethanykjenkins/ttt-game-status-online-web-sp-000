@@ -34,7 +34,6 @@ WIN_COMBINATIONS= [
       return false
       end
   
- # def full?(board)
-#    if board.detect{|space| space}
-#    end
-#  end
+  def full?(board)
+    board.all? {|index| index == "X" || index == "O"}
+   end
