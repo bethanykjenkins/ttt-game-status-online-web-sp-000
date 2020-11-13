@@ -38,4 +38,8 @@ WIN_COMBINATIONS= [
     board.all? {|index| index == "X" || index == "O"}
    end
    
-   
+  def draw?(board)
+    if won?(board) == false
+      return true 
+    elsif full?(board) == 
+  end
